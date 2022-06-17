@@ -1,0 +1,1 @@
+token = '5331385847:AAFLZnaodNSU_wCkWRL6ijDVwpLEZZygy4g' #Это бот специально для калькулятора
