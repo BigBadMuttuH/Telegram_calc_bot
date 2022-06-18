@@ -12,6 +12,7 @@ Repository to work together on homework to create telegram bot.
 1. help() выводит справку об использовании бота
 2. start() здоровается с пользователем и пишет приветственное сообщение
 3. calculating_message() высчитывает результат при помощи sumpy
+4. get_weather() показывает погоду
 ### bot.send_message(message.chat.id, f'Result =  {sympy.sympify(message.text)}')
 * `bot.send_message`('Кому в какой чат отправить', 'что отправить') - функция отправки собщения тому, кто обратился к боту.
 В скобках описывается кому и в какой чат отправить, и что именно отправить.
