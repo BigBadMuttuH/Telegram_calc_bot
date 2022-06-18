@@ -41,5 +41,8 @@ def main_func(message):
                 bot.send_message(message.chat.id, f'Result =  {sympy.sympify(message.text)}')
             calculating_message(message)
 
+            
 
-bot.polling(none_stop=True)
+if __name__ == '__main__':
+    bot.polling(none_stop=True)        
+
